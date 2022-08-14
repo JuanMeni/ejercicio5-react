@@ -1,11 +1,17 @@
-import React from 'react';
+import React from "react";
+import { ListGroup } from "react-bootstrap";
+import ItemTarea from "./ItemTarea";
 
-const ListaTarea = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+const ListaTarea = (props) => {
+  return (
+    <div>
+      <ListGroup>
+        {props.arregloTarea.map((item, posicion) => (
+          <ItemTarea key={posicion} tareaCargada={item} ></ItemTarea>
+        ))}
+      </ListGroup>
+    </div>
+  );
 };
 
 export default ListaTarea;
