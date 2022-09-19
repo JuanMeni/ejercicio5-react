@@ -36,5 +36,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "El ejercicio consiste modificar el ejercicio 4 agregandole local storage, pudiendo almacenar y eliminar las tareas de la lista.",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "Juan Pablo Menichetti",
+  "license": "ISC"
 }

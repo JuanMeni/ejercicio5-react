@@ -1,0 +1,20 @@
+{
+    "tareas": [
+        {
+          "tarea": "comer",
+          "id": 1
+        },
+        {
+          "tarea": "correr",
+          "id": 2
+        },
+        {
+          "tarea": "caminar",
+          "id": 3
+        },
+        {
+          "tarea": "ir al gym",
+          "id": 4
+        }
+    ]
+}
